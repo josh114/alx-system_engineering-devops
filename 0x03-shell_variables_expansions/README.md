@@ -1,0 +1,1 @@
+[0-alias](./0-alias) - write a script that creates and alias ls
