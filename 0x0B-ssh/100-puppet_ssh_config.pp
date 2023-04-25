@@ -6,7 +6,7 @@ file { '~/.ssh/school':
   source => '~/.ssh/school',
 }
 
-file { '~/.ssh/config':
+file { '/etc/ssh/ssh_config':
   ensure  => present,
   mode    => '0644',
   content => "
